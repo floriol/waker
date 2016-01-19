@@ -1,0 +1,25 @@
+{
+  "name": "Waker",
+  "description": "Simple alarm clock app with DB and GPS ",  
+  "launch_path": "/index.html",
+    
+  "icons": {
+    "128": "/icons/icon.jpg"
+  },
+    
+  "developer": {
+    "name": "Larion Terék",
+    "url": "http://www.stud.u-szeged.hu/276367"
+  },
+  "default_locale": "en",
+ "permissions": {
+        "geolocation": {
+            "description": "Required to get current location of user"
+        },
+    "alarms": {
+      "description": "Required to schedule alarms"
+    }
+           
+ }
+    
+}
